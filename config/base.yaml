@@ -1,0 +1,33 @@
+# MySQL数据库连接配置
+mysql:
+  ip: 8.137.93.60
+  user: admin
+  password: 199644Asd!
+  dbname: mysql
+  port: 3306
+  encode: utf8
+
+# WebDriver基本配置
+webdriver:
+  browser: Chrome
+  url: http://www.google.com
+
+# Appium_Server基本配置
+appium:
+  desired_capabilities:
+    platformName: "Android"
+    platformVersion: "7.1.2"
+    deviceName: "article_news"
+    app: "D:\\temp\\com.ss.android.article.news_7.7.9_7790.apk"
+    appPackage: "com.ss.android.article.news"
+    appActivity: "com.ss.android.article.news.activity.MainActivity"
+    uuid: "127.0.0.1:21503"
+  url: http://localhost:4723/wd/hub
+
+# Requests基本配置
+requests:
+  baseURL: http://www.google.com
+
+# OpenCV2图像识别基本配置
+imageMatch:
+  similarity: 0.9
